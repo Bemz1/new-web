@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+.topcontent {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #fefae0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.listItem1 {
+    margin-left: 15px;
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.bottomTwo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d3b179;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.list2 {
+    display: flex;
+    justify-content: center;
+}
+
+.listItem2 {
+    margin-left: 25px;
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.bemz {
+    display: flex;
+    font-weight: 500;
+    width: 15%;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.navIcons {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.link1 {
+    color: #0d1b2a;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.link12 {
+    color: #0d1b2a;
+    text-decoration: none;
+    border-left: solid 1px;
+    padding-left: 10px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 150px 0;
+    background-image: url(img/room-img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.buttonClass p {
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+.buttonClass:hover {
+    background-color: white;
+    color: #d3b179;
+    transition: .5s;
+}
+
+.buttonClass {
+    padding: 10px;
+    border: 1px solid #d3b179;
+    border-radius: 30px;
+    font-family: 'josefin sans', sans-serif;
+    background-color: #d3b179;
+    color: #fffcf2;
+}
+
+.text1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'josefin sans', sans-serif;
+}
+
+.paragraph1 span {
+    color: #9d0208;
+}
+
+.content2 {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contentItems1 {
+    padding: 5px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.contentItems2 {
+    border-left: 2px solid #d3b179;
+    border-right: 2px solid #d3b179;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.contentItems3 {
+    padding: 5px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.insideContent1 {
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: #d3b179;
+}
+
+.insideContent2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content3 {
+    display: flex;
+    align-items: center;
+}
+
+.image-content3 {
+    width: 50%;
+    overflow: hidden;
+}
+
+.text-content3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeClass {
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 30px;
+    color: #d3b179;
+}
+
+.homeClass-content {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.homeClass-button {
+    width: max-content;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid #d3b179;
+    border-radius: 30px;
+    font-family: 'josefin sans', sans-serif;
+    background-color: #d3b179;
+    color: #fffcf2;
+
+}
+
+.homeClass-button a {
+    text-decoration: none;
+    font-size: 35px;
+    background-color: #d3b179;
+    color: #fffcf2;
+}
+
+.content4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content4 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-textcontent4 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+}
+
+.office-image {
+    width: 50%;
+    overflow: hidden;
+}
+
+.libraryClass {
+    font-family: 'josefin sans', sans-serif;
+    font-size: 30px;
+    color: #d3b179;
+    font-weight: 700;
+}
+
+.library-button {
+    padding: 10px;
+    border: 1px solid #d3b179;
+    border-radius: 30px;
+    font-family: 'josefin sans', sans-serif;
+    background-color: #d3b179;
+    color: #fffcf2;
+}
+
+.library-button a {
+    text-decoration: none;
+    font-size: 35px;
+    background-color: #d3b179;
+    color: #fffcf2;
+}
+
+.libraryClass-content {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.about-section {
+    background-color: #d3b179;
+    padding: 150px;
+    background-image: url(img/table.jpg);
+    background-position: bottom;
+    background-blend-mode: multiply;
+}
+
+.about-item {
+    margin-bottom: 20px;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
